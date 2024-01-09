@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<!-- 
+Arzea - Edith PayTR Ödeme Sistemi Yazılımı (c) 2023
+-->
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="twitter:title" content="Rintale Roleplay - Bakiye Yükleme Sistemi">
+<meta name="twitter:description" content="Rintale Roleplay - Bakiye Yükleme Sistemi">
+<meta name="twitter:image" content="#">
+<meta property="og:url" content="#">
+<meta name="twitter:title" content="Rintale Roleplay - Bakiye Yükleme Sistemi">
+<meta property="og:description" content="Rintale Roleplay - Bakiye Yükleme Sistemi">
+<meta name="description" content="Rintale Roleplay - Bakiye Yükleme Sistemi">
+<link rel="shortcut icon" href="template/images/favicon.png">
+<link rel="stylesheet" href="../bootstrap/4.0.0/css/bootstrap.min.css">
+<link href="../css-2.css?family=Montserrat&subset=latin,latin-ext" rel="stylesheet">
+<link rel="stylesheet" href="https://arzea.online/paytr/template/css/payment.css">
+<script src="../npm/sweetalert2@11.js"></script>
+<script src="../jquery-3.7.1.js"></script>    <title>Rintale Roleplay - Bakiye Yükleme</title>
+</head>
+
+<body><main class="page payment-page">
+    <section class="payment-form dark" style="background-color: #222;">
+        <div class="container">
+            <div class="block-heading">
+                <h2><img style="clip-path: circle(50% at 50% 50%);" src="template/images/rintalepng.png" alt="Rintale Roleplay" width="120"></h2>
+                <p style="color: white;">Rintale Roleplay'e ait ödeme sistemini kullanıyorsunuz. Ödeme sonrası iade yapılmaz.</p>
+            </div>
+            <form method="post">
+                <div class="card-details" style="background-color: #e6f2ff;">
+                    <h3 class="title">Ödeme Detayları</h3>
+                    <div class="row">
+                        <div class="form-group col-sm-8">
+                            <label for="username">Kullanıcı Adı</label>
+                            <input id="username" type="text" name="username" class="form-control" placeholder="Kullanıcı Adı" autocomplete="off" aria-label="Kullanıcı Adı" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="form-group col-sm-4">
+                            <label for="price">Miktar</label>
+                            <input id="price" type="number" name="price" class="form-control" placeholder="Miktar" autocomplete="off" aria-label="Miktar" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-details">
+                    <h3 class="title">Kullanıcı Detayları</h3>
+                    <div class="row">
+                        <div class="form-group col-sm-9">
+                            <label for="card-holder">E-posta Adresi</label>
+                            <input id="card-holder" type="text" name="mail" class="form-control" placeholder="E-posta Adresi" autocomplete="off" aria-label="E-posta Adresi" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="form-group col-sm-9">
+                            <label for="card-number">Telefon Numarası</label>
+                            <input id="card-number" maxlength="16" type="number" name="phone" class="form-control" placeholder="Telefon Numarası" autocomplete="off" aria-label="Telefon Numarası" aria-describedby="basic-addon1">
+                        </div><br>
+                        <div class="form-group col-sm-5" style="max-width:35.5%;">
+                            <label for="name">İsim</label>
+                            <input id="name" maxlength="20" type="text" name="name" class="form-control" placeholder="İsim" autocomplete="off" aria-label="name" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="form-group col-sm-5" style="max-width:39.5%;">
+                            <label for="surname">Soyisim</label>
+                            <input id="surname" maxlength="20" type="text" name="surname" class="form-control" placeholder="Soyisim" autocomplete="off" aria-label="surname" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="right">
+                         <h3 class="title">İletişim</h3>
+                            <label for="address">Bodrum/Muğla</label>
+                         <label for="address">Whatsapp iletişim hattı: +90 850 309 6942</label>
+                        </div>
+                        <div class="form-group col-sm-12">
+                            <button type="submit" name="submit" class="btn btn-primary btn-block">Ödeme Yap</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
+<a href="../index-2.htm" target="_blank" class="footerp">Rintale Roleplay © 2023</a>
+<!-- JS -->
+<script src="../bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
